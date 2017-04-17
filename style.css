@@ -528,7 +528,7 @@ INFINITE LOOPS:
 @media (max-width: 25em) { .page-content { height: 18.750em; } }
 .space-fluid { position: relative; width: 100%; max-width: 100%; margin: auto; overflow: hidden; }
 
-.space-wrap { position: relative; width: 100%; max-width: 60.000em; margin: auto; overflow: hidden; padding: 0 0.625em 0 0.625em; }
+.space-wrap { position: relative; width: 100%; max-width: 60.000em; margin: auto; overflow: hidden; }
 
 /*800*/
 @media (max-width: 50em) { .space-wrap { max-width: 40.000em; } }
@@ -585,14 +585,25 @@ video { min-width: 100%; min-height: 100%; width: auto; height: auto; }
 
 #heroVideo { position: absolute; top: 0; z-index: -1; }
 
+.headroom { will-change: transform; -webkit-transition: -webkit-transform 200ms linear; transition: -webkit-transform 200ms linear; transition: transform 200ms linear; transition: transform 200ms linear, -webkit-transform 200ms linear; }
+
+.headroom--pinned { -webkit-transform: translateY(0%); transform: translateY(0%); }
+
+.headroom--unpinned { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+
+h1, h2, h3, h4 { color: #16a086; }
+
+.container { color: #2b3940; }
+
 .hero-content { background: rgba(33, 44, 50, 0.9); }
+.hero-content .hero-text { padding-top: 14em; position: relative; margin: auto; width: 80%; max-width: 37.500em; }
+.hero-content .hero-text h1 { font-family: 'Roboto Condensed', 'Impact', sans-serif; font-weight: 700; font-size: 4.85em; color: white; }
+.hero-content .hero-text h2 { color: #00eb7f; }
+@media (max-width: 50em) { .hero-content .hero-text h1 { font-size: 4em; } }
+@media (max-width: 25em) { .hero-content .hero-text h1 { font-size: 2.45em; } }
 
-.index-list { text-align: center; padding: 14em 0.25em 0 0.25em; position: relative; width: 70%; margin: auto; }
-.index-list .list { padding: 0.25em; }
+.home-content h1 { text-transform: uppercase; }
 
-.hero-text { padding-top: 14em; position: relative; margin: auto; width: 70%; max-width: 37.500em; }
-.hero-text h1 { font-family: 'Roboto', 'Helvetica Neue', sans-serif; font-weight: 300; font-size: 4.85em; color: white; }
-@media (max-width: 50em) { .hero-text h1 { font-size: 4em; } }
-@media (max-width: 25em) { .hero-text h1 { font-size: 2.45em; } }
+.back-green { background: #2b3940; }
 
 /* STYLESHEET */

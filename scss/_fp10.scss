@@ -4,9 +4,12 @@
 @mixin hero-fonts {
 //---
     h1 {
-        @include basetype;
+        @include headtype;
         font-size: 4.85em;
         color: $colWhite;
+    }
+    h2 {
+        color: $colParrotGreen;
     }
     //-800-
     @media (max-width: 50.000em) {
@@ -19,29 +22,32 @@
 //---
 }
 
-
-
-
 // STRUCTURE
+
+h1,h2,h3,h4 {color: $colGreen;}
+.container {color: $colText;}
 
 .hero-content {
 	background: rgba(33, 44, 50, 0.9);
-}
-
-.index-list {
-	text-align: center;
-	padding: 14em 0.25em 0 0.25em;
-	position: relative;
-	width: 70%;
-	margin: auto;
-	.list {padding: 0.25em;}
-}
-
 .hero-text {
 	@include hero-fonts;
 	padding-top: 14em;
 	position: relative;
 	margin: auto;
-	width: 70%;
+	width: 80%;
 	max-width: 37.500em;
+	}
 }
+
+.home-content {
+	h1 {text-transform: uppercase;}
+}
+
+.back-green {
+	background: rgba(43, 57, 64, 1);
+}
+
+
+
+
+
