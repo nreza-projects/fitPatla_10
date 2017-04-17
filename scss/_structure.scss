@@ -1,0 +1,168 @@
+// _structures.scss - NREZA
+
+
+// LOGO BOX - For Customisation >>
+#logoBox {
+  top: 0;
+  float: left;
+  width: 3.125em;
+  height: 3.125em;
+  cursor: pointer;
+  img {width:100%;height:100%;z-index: 999;}
+}
+//~
+
+// BASIC DIVS
+  //-
+.container {
+  position: relative;
+  top:0;
+  width: 100%;
+  max-width: 120.000em;
+  margin: auto;
+}
+.top-bar {
+  position: absolute;
+  top: 5.000em;
+  left: 5%;
+  right: 5%; 
+  z-index: 3;
+}
+/*800*/
+@media (max-width: 50.000em) {
+  .top-bar {top: 1.250em;left: 2.5%;right: 2.5%; }
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .top-bar {top: 1.250em;left: 0.75%;right: 0.75%; }
+}
+
+.foot-bar {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 10.0em;
+}
+
+
+
+  //~
+
+// HERO DIVS
+
+  //-
+.hero-back {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50.000em; 
+  z-index: -2;
+  overflow: hidden;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .hero-back {height: 37.500em;}
+}
+
+.hero-front {
+	position: absolute;
+	top: 0;
+    width: 100%;
+	height: 50.000em;	
+	overflow: hidden;
+	z-index: 1;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .hero-front {height: 37.500em;}
+}
+.hero-content {
+	position: relative;
+	width: 100%;
+  height: 50.000em;
+	overflow: hidden;	
+	z-index: 2;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .hero-content {height: 37.500em;}
+}
+
+
+  //~
+
+
+// PAGE DIVS
+
+  //-
+.page-back {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 31.250em; 
+  z-index: -2;
+  overflow: hidden;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .page-back {height: 18.750em;}
+}
+
+.page-front {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 31.250em;	
+	overflow: hidden;
+	z-index: 1;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .page-front {height: 18.750em;}
+}
+
+.page-content {
+	position: relative;
+	width: 100%;
+	overflow: hidden;	
+	z-index: 2;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .page-content {height: 18.750em;}
+}
+  //~
+
+
+// SPACE DIVS
+
+  //-
+.space-fluid {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.space-wrap {
+	position: relative;
+	width: 100%;
+	max-width: 60.000em; 
+	margin: auto;
+	overflow: hidden;
+    padding: 0 0.625em 0 0.625em;
+}
+/*800*/
+@media (max-width: 50.000em) {
+  .space-wrap {max-width: 40.000em;}
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .space-wrap {max-width: 18.750em;}
+}
+
+
+//--
+
+//--

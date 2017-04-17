@@ -1,0 +1,90 @@
+// _nav.scss - NREZA
+
+
+@mixin navFontstyle-l {
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 1.800em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+@mixin navFontstyle-m {
+	font-size: 1.640em;
+}
+
+@mixin navFontstyle-s {
+	font-size: 1.224em;
+}
+
+
+
+
+
+@keyframes navHover {
+  0% { 
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+
+}
+
+#navBttn {
+  top: 0;
+  float: right;
+  width: 3.125em;
+  height: 3.125em;
+  cursor: pointer;
+  img {width:100%;height:100%;z-index: 999;}
+}
+
+#navBox {
+  display: none;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-color: rgba(37, 46, 54, 0.989);
+  z-index: 999;
+  overflow: hidden;
+      ul {margin-top: 8.0em;  }
+      ul li {
+        text-align: center;
+        a:link {color: rgba(244, 244, 244, 1);}
+        a:visited {color: rgba(244, 244, 244, 1);}
+        a:hover {color: rgba(240, 75, 101, 1);}
+		}
+
+#navBttnX {
+	top: 0;
+	float: right; 
+	width: 3.125em;
+	height: 3.125em;
+	float: right;
+	cursor: pointer;
+	img {width:100%;height:100%;  z-index: 9999;}
+  	}
+}
+
+/* NAVLINKS */
+
+#navBox ul li { @include navFontstyle-l;padding-bottom: 3.125em;}
+
+
+/*800*/
+@media (max-width: 50.000em) {
+	#navBox ul li { @include navFontstyle-m; padding-bottom: 2.015em;}
+}
+/*400*/
+@media (max-width: 25.000em) {
+	#navBox ul li { @include navFontstyle-s;padding-bottom: 1.445em;}
+}
+

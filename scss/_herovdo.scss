@@ -1,0 +1,26 @@
+// _herovdo.scss - NREZA
+
+/*
+
+// Put this in HTML
+
+<video id="heroVideo" autoplay loop poster="...">
+    <source src="..." type="video/webm">
+    <source src="..." type="video/mp4">
+</video>
+
+*/
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+}
+
+#heroVideo {
+  position: absolute;
+  top: 0;
+  z-index: -1; 
+}
+

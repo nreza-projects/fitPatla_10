@@ -1,0 +1,74 @@
+#pageLoader {
+		display: none;
+ 		position: fixed;
+ 		width: 100%;
+ 		left: 0;
+ 		right:0;
+ 		top: 0;
+ 		bottom: 0;
+ 		background-color: $colDeepBlue;
+ 		z-index: 99999;
+ 	}
+
+
+.spinner {
+	margin-top: $px250;
+	padding: 0;
+	position: absolute;
+	width: $px200;
+	height: $px200;
+ 	z-index: 999999;
+	img {width: 100%; height: 100%;}
+	left: 50%;
+	margin-left: -$px100;
+ }
+
+
+.loop-fst {
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
+.loop-med {
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
+.loop-slw {
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
+
+
+
+/* |03 ~>	Spin
+--------------------------------------------------- */
+.ani-spinRight{
+  animation-name: spinRight;
+  animation-timing-function: linear;
+  transform-origin: 50% 50%;
+}
+.ani-spinLeft {
+	animation-name: spinLeft;
+	animation-timing-function: linear;
+	transform-origin: 50% 50%;
+}
+
+@keyframes spinRight{
+  0% {
+    transform:  rotate(0deg) ;
+  }
+  100% {
+    transform:  rotate(360deg) ;
+  }
+}
+@keyframes spinLeft{
+  0% {
+    transform:  rotate(0deg) ;
+  }
+  100% {
+    transform:  rotate(-360deg) ;
+  }
+}
+

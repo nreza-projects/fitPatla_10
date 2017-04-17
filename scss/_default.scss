@@ -1,0 +1,178 @@
+// _default.scss - NREZA
+
+// 0. *** BASE FONTS ***
+
+$baseFont: 'Roboto', 'Helvetica Neue', sans-serif;
+$baseWeight: 300;
+
+//--
+
+
+// 1. *** BASE FONT SIZE ***
+html {font-size: 16px;font-size: 1em;}
+
+body {
+  font-family: $baseFont;
+  font-weight: $baseWeight;
+  line-height: 1.45;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+
+h2 {font-size: 1.728em;}
+
+h3 {font-size: 1.44em;}
+
+h4 {font-size: 1.2em;}
+
+//--
+
+
+
+
+
+// 2. *** BOX SIZING ***
+html {box-sizing: border-box;}
+*,*::before,*::after {box-sizing: inherit;}
+//--
+
+// 3. *** REMOVE LIST DOTS ***
+ul li {list-style: none;}
+* {margin: 0;padding: 0;}
+//--
+
+// 4. *** CLEAR FIX ***
+.cf:before,.cf:after {content: " "; display: table;}
+.cf:after {clear: both;}
+	/**
+	 * For IE 6/7 only
+	 * Include this rule to trigger hasLayout and contain floats.
+	 */
+.cf {*zoom: 1;}
+//--
+
+// 5. *** TEXT ALIGNMENTS ***
+.txt-c {text-align: center;}
+.txt-l {text-align: left;}
+.txt-r {text-align: right;}
+.txt-j {text-align: justify;}
+//--
+
+// DIVS WITH HEIGHTS
+
+.h-100 {min-height: 6.250em;}
+.h-200 {min-height: 12.500em;}
+.h-300 {min-height: 18.750em;}
+.h-400 {min-height: 25.000em;}
+.h-500 {min-height: 31.250em;}
+.h-600 {min-height: 37.500em;}
+.h-700 {min-height: 43.750em;}
+.h-800 {min-height: 50.000em;}
+
+ 
+/*PADDINGS*/
+
+.pad-sides {
+  padding-left: 2.250em;
+  padding-right: 2.250em;
+}
+/*800*/
+@media (max-width: 50.000em) {
+.pad-sides {padding-left: 1.250em;padding-right: 1.250em;}       
+}
+/*400*/
+@media (max-width: 25.000em) {
+.pad-sides {padding-left: 0.50em;padding-right: 0.50em;}        
+}
+
+
+.pad-roof {
+  padding-top: 5.000em;
+}
+/*800*/
+@media (max-width: 50.000em) {
+.pad-roof {padding-top: 3.250em;}       
+}
+/*400*/
+@media (max-width: 25.000em) {
+.pad-roof {padding-top: 2.125em;}       
+}
+
+.pad-floor {
+  padding-bottom: 5.000em;
+}
+/*800*/
+@media (max-width: 50.000em) {
+.pad-floor {padding-bottom: 3.250em;}       
+}
+/*400*/
+@media (max-width: 25.000em) {
+.pad-floor {padding-bottom: 2.125em;}       
+}
+
+
+
+ /*FILTERS*/
+
+.filter-dots-1 {
+  background-image: url('img/bg-dots-1.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.filter-dots-2 {
+  background-image: url('img/bg-dots-2.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.filter-lines-1 {
+  background-image: url('img/bg-lines-1.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+.filter-lines-2 {
+  background-image: url('img/bg-lines-2.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+.filter-lines-3 {
+  background-image: url('img/bg-lines-3.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+.filter-lines-4 {
+  background-image: url('img/bg-lines-3.svg');
+  background-position: center;
+  background-repeat: repeat;
+}
+.filter-tint-1 {
+  background-image: url("img/bg-tint-1.svg"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+/*Invisible and Visible*/
+.space-invisible{
+  opacity:0;
+}
+.space-visible{
+  opacity: 1;
+}
+
+.nsf-l {
+	display: none;
+}
+.nsf-lm {
+	display: none;
+}

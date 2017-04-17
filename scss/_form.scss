@@ -1,0 +1,22 @@
+// _forminputs.scss
+
+.btn-normal {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ee4d67;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  border: solid  #ee4d67 2px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-normal:hover {
+  background: #ee4d67;
+  text-decoration: none;
+  color: #ab2959;
+}

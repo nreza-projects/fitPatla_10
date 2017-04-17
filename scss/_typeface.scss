@@ -1,0 +1,42 @@
+// _typeface.scss - NREZA
+
+/*
+//TYPEFACE SCSS TEMPLATE 
+@mixin hero-fonts {
+//---
+    h1 {
+        @include headtype;
+        font-size: 4.85em;
+        color: $colWhite;
+    }
+    //-800-
+    @media (max-width: 50.000em) {
+        h1 {font-size: 4em;}
+    }
+    //-400-
+    @media (max-width: 25.000em) {
+        h1 {font-size: 2.45em;}
+    }    
+//---
+}
+*/
+
+/*THREE MAIN WEBSITE FONTS*/
+        @mixin headtype {
+            font-family: 'Roboto Condensed', 'Impact', sans-serif;
+            font-weight: 700;
+        }
+
+        @mixin subtype {
+            font-family: 'Roboto Slab', 'Times New Roman', serif;
+            font-weight: 400;
+        }
+
+        @mixin basetype {
+            font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+            font-weight: 300;  
+        }
+
+h1,h4,h5 {@include headtype;}
+h2,h3 {@include subtype;}
+h4,h5 {text-transform: uppercase;}
