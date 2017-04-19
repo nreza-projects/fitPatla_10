@@ -111,6 +111,12 @@ jQuery('.vp-ani-slideRight').addClass("space-invisible").viewportChecker({
 	    scrollHorizontal: false // Set to true if your website scrolls horizontal instead of vertical.
 			});
 
+// fullpage.js
+jQuery(document).ready(function() {
+	jQuery('#fullpage').fullpage();
+});
+
+
 //~~~~~~~~~~~~~~~~~~~~~
 });
 
