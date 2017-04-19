@@ -92,7 +92,7 @@ ul li {list-style: none;}
 }
 /*400*/
 @media (max-width: 25.000em) {
-.pad-sides {padding-left: 0.50em;padding-right: 0.50em;}        
+.pad-sides {padding-left: 0.250em;padding-right: 0.250em;}        
 }
 
 
@@ -120,7 +120,17 @@ ul li {list-style: none;}
 .pad-floor {padding-bottom: 2.125em;}       
 }
 
-
+.pad-full {
+  padding: 5.000em;
+}
+/*800*/
+@media (max-width: 50.000em) {
+.pad-full {padding: 3.250em;}       
+}
+/*400*/
+@media (max-width: 25.000em) {
+.pad-full {padding: 2.125em;}       
+}
 
  /*FILTERS*/
 

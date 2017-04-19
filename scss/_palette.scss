@@ -11,18 +11,29 @@ $colText: rgba(43, 57, 64, 1);
 
 /*BLACK*/
 $colBlack: rgba(0, 0, 0, 1);
-$colBlackT: rgba(0, 0, 0, 0.77);
+$colBlackT: rgba(0, 0, 0, 0.44);
 $colBlackTL: rgba(0, 0, 0, 0.09);
 
 /*GREY*/
 $colGrey: rgba(169, 169, 169, 1);
-$colGreyT: rgba(169, 169, 169, 0.77);
+$colGreyT: rgba(169, 169, 169, 0.44);
 $colGreyTL: rgba(169, 169, 169, 0.09);
+
+/*DEEP GREY*/
+$colDeepGrey: rgba(43, 57, 64, 1);
+$colDeepGreyT: rgba(43, 57, 64, 0.44);
+$colDeepGreyTL: rgba(43, 57, 64, 0.9);
+
 
 /*WHITE*/
 $colWhite: rgba(255, 255, 255, 1);
-$colWhiteT: rgba(255, 255, 255, 0.77);
+$colWhiteT: rgba(255, 255, 255, 0.44);
 $colWhiteTL: rgba(255, 255, 255, 0.09); 
+
+/*MILK WHITE*/
+$colMilkWhite: rgba(245, 245, 245, 1);
+$colMilkWhiteT: rgba(245, 245, 245, 0.44);
+$colMilkWhiteTL: rgba(245, 245, 245, 0.9); 
 
 //---
 
@@ -31,26 +42,21 @@ $colWhiteTL: rgba(255, 255, 255, 0.09);
 
 //Red
 $colRed: rgba(192, 57, 43, 1);
-$colRedT: rgba(192, 57, 43, 0.77);
+$colRedT: rgba(192, 57, 43, 0.44);
 $colRedTL: rgba(192, 57, 43, 0.09);
 
 //RoyalRed
 $colRoyalRed: rgba(190, 24, 59, 1);
-$colRoyalRedT: rgba(190, 24, 59, 0.77);
+$colRoyalRedT: rgba(190, 24, 59, 0.44);
 $colRoyalRedTL: rgba(190, 24, 59, 0.09);
-
-//PinkRed
-$colPinkRed: rgba(238, 77, 103, 1);
-$colPinkRedT: rgba(238, 77, 103, 0.77);
-$colPinkRedTL: rgba(238, 77, 103, 0.09);
 
 
 	/*ORANGE*/
 
 //Orange
-$colOrange: rgba(244, 160, 0, 1);
-$colOrangeT: rgba(244, 160, 0, 0.77);
-$colOrange: rgba(244, 160, 0, 0.09);
+$colOrange: rgba(223, 104, 80, 1);
+$colOrangeT: rgba(223, 104, 80, 0.44);
+$colOrange: rgba(223, 104, 80, 0.09);
 
 
 
@@ -58,7 +64,7 @@ $colOrange: rgba(244, 160, 0, 0.09);
 
 //Yellow
 $colYellow: rgba(238, 201, 20, 1);
-$colYellowT: rgba(238, 201, 20, 0.77);
+$colYellowT: rgba(238, 201, 20, 0.44);
 $colYellowTL: rgba(238, 201, 20, 0.09);
 
 
@@ -66,27 +72,32 @@ $colYellowTL: rgba(238, 201, 20, 0.09);
 
 //Green
 $colGreen: rgba(22, 160, 134, 1);
-$colGreenT: rgba(22, 160, 134, 0.77);
+$colGreenT: rgba(22, 160, 134, 0.44);
 $colGreenTL: rgba(22, 160, 134, 0.09);
 
 //ParrotGreen
 $colParrotGreen: rgba(0, 235, 127, 1);
-$colParrotGreenT: rgba(0, 235, 127, 0.77);
+$colParrotGreenT: rgba(0, 235, 127, 0.44);
 $colParrotGreenTL: rgba(0, 235, 127, 0.09);
 
 //ForestGreen
 $colForestGreen: rgba(13, 145, 161, 1);
-$colForestGreenT: rgba(13, 145, 161, 0.77);
+$colForestGreenT: rgba(13, 145, 161, 0.44);
 $colForestGreenTL: rgba(13, 145, 161, 0.09);
 
 //GlowGreen
 $colGlowGreen: rgba(113, 249, 193, 1);
-$colGlowGreenT: rgba(113, 249, 193, 0.77);
+$colGlowGreenT: rgba(113, 249, 193, 0.44);
 $colGlowGreenTL: rgba(113, 249, 193, 0.09);
+
+//FlatGreen
+$colFlatGreen: rgba(119, 248, 194, 1);
+$colFlatGreenT: rgba(119, 248, 194, 0.44);
+$colFlatGreenTL: rgba(119, 248, 194, 0.9);
 
 //MonsoonGreen
 $colMonsoonGreen: rgba(61, 217, 186, 1);
-$colMonsoonGreenT: rgba(61, 217, 186, 0.77);
+$colMonsoonGreenT: rgba(61, 217, 186, 0.44);
 $colMonsoonGreenTL: rgba(61, 217, 186, 0.09);
 
 
@@ -95,17 +106,17 @@ $colMonsoonGreenTL: rgba(61, 217, 186, 0.09);
 
 //Blue
 $colBlue: rgba(39, 182, 247, 1);
-$colBlueT: rgba(39, 182, 247, 0.77);
+$colBlueT: rgba(39, 182, 247, 0.44);
 $colBlueTL: rgba(39, 182, 247, 0.09);
 
 //DeepBlue
 $colDeepBlue: rgba(25, 57, 129, 1);
-$colDeepBlueT: rgba(25, 57, 129, 0.77);
+$colDeepBlueT: rgba(25, 57, 129, 0.44);
 $colDeepBlueTL: rgba(25, 57, 129, 0.09);
 
 //BrightBlue
 $colBrightBlue: rgba(0, 170, 255, 1);
-$colBrightBlueT: rgba(0, 170, 255, 0.77);
+$colBrightBlueT: rgba(0, 170, 255, 0.44);
 $colBrightBlueTL: rgba(0, 170, 255, 0.09);
 
 
@@ -114,17 +125,17 @@ $colBrightBlueTL: rgba(0, 170, 255, 0.09);
 
 //Indigo
 $colIndigo: rgba(10, 34, 122, 1);
-$colIndigoT: rgba(10, 34, 122, 0.77);
+$colIndigoT: rgba(10, 34, 122, 0.44);
 $colIndigoTL: rgba(10, 34, 122, 0.09);
 
 //DeepIndigo
 $colDeepIndigo: rgba(17, 49, 86, 1);
-$colDeepIndigoT: rgba(17, 49, 86, 0.77);
+$colDeepIndigoT: rgba(17, 49, 86, 0.44);
 $colDeepIndigoTL: rgba(17, 49, 86, 0.09);
 
 //WhaleIndigo
 $colWhaleIndigo: rgba(23, 99, 160, 1);
-$colWhaleIndigoT: rgba(23, 99, 160, 0.77);
+$colWhaleIndigoT: rgba(23, 99, 160, 0.44);
 $colWhaleIndigoTL: rgba(23, 99, 160, 0.09);
 
 
@@ -133,5 +144,5 @@ $colWhaleIndigoTL: rgba(23, 99, 160, 0.09);
 
 //Violet
 $colViolet: rgba(85, 57, 130, 1);
-$colVioletT: rgba(85, 57, 130, 0.77);
+$colVioletT: rgba(85, 57, 130, 0.44);
 $colVioletTL: rgba(85, 57, 130, 0.09);

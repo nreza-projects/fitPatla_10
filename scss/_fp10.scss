@@ -27,6 +27,44 @@
 h1,h2,h3,h4 {color: $colGreen;}
 .container {color: $colText;}
 
+// index page
+
+.hero-back-T {
+    background-color: $colDeepIndigo;
+}
+
+.pllx-box-1 {
+    position: absolute;
+    z-index: -8;
+    width: 100%;
+    min-height: 150em;
+    background-image: url('img/pllx-spots-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: difference;
+}
+
+.pllx-box-2 {
+    position: absolute;
+    z-index: -9;
+    width: 100%;
+    min-height: 150em;
+    background-image: url('img/pllx-spots-2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: difference;
+
+}
+
+.index-list {
+    li.list {
+        a:link,a:active,a:visited{font-size: 1.444em; text-transform: uppercase; color: $colGlowGreen;}
+        a:hover {color: $colWhite;}
+    }
+}
+
+// HOMEPAGE
+
 .hero-content {
 	background: rgba(33, 44, 50, 0.9);
 .hero-text {
