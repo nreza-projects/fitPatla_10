@@ -1,8 +1,9 @@
 # fitPatla_10
-fitPatla 10
+fitPatla 10 Notes
 
 
-```css
+'''css
+
 .bg-img {
 	background-image: url('blankkk');
 	background-repeat: no-repeat;
@@ -10,4 +11,4 @@ fitPatla 10
 	background-size: cover;
 }
 
-```
+'''
