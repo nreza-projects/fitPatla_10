@@ -2,7 +2,7 @@
 fitPatla 10
 
 
-'''css
+'''
 
 .bg-img {
 	background-image: url('blankkk');
