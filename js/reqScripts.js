@@ -34,7 +34,7 @@ jQuery('.vp-ani-zoomCloser').addClass("space-invisible").viewportChecker({
 	    classToRemove: 'space-invisible', // Class to remove before adding 'classToAdd' to the elements
 	    classToAdd: 'space-visible ani-zoomCloser', // Class to add to the elements when they are visible,
 	    removeClassAfterAnimation: false, // Remove added classes after animation has finished
-	    offset: 100, // The offset of the elements (let them appear earlier or later). This can also be percentage based by adding a '%' at the end
+	    offset: 0, // The offset of the elements (let them appear earlier or later). This can also be percentage based by adding a '%' at the end
 	   	repeat: true, // Add the possibility to remove the class if the elements are not visible
 	    scrollHorizontal: false // Set to true if your website scrolls horizontal instead of vertical.
 			});

@@ -81,3 +81,19 @@
   z-index: -1;
 }
 
+
+// PAD GLASS DARK
+
+.pad-glss-drk {
+  position: relative;
+  width: 100%;
+  min-height: 6.250em;
+  background-color: rgba(18, 25, 35, 0.66);
+  padding: 2.5em;
+  margin-bottom: 2.5em;
+}
+/*400*/
+@media (max-width: 25.000em) {
+  .pad-glss-drk {padding: 1.250em;}
+}
+

@@ -316,7 +316,7 @@ INFINITE LOOPS:
 --------------------------------------------------- */
 .ani-zoomCloser {
     animation-name: zoomCloser;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
 }
 
 
@@ -324,20 +324,17 @@ INFINITE LOOPS:
 
 @keyframes zoomCloser {
 	0% {
-	transform:scale(0);
-	opacity: 0;
+	transform:scale(0.01);
 	}
-
-	50% {
-	opacity: 0.68;	
-	}
-	90% {
-	transform: scale(1.05);
+	95% {
+	transform: scale(1.08);
 	}
 	100% {
 	transform: scale(1);
-	opacity: 1;
 	}
 }
 /* ---	xxx	--- */
+
+
+
 
