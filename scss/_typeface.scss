@@ -40,3 +40,7 @@
 h1,h4,h5 {@include headtype;}
 h2,h3 {@include subtype;}
 h4,h5 {text-transform: uppercase;}
+
+a:link{@include basetype;color:$colGreen;}
+a:active{color:$colGlowGreen;}
+a:hover{color:$colFlatGreen;}
